@@ -16,6 +16,7 @@ class MyOpener(FancyURLopener, object):
 
 myopener = MyOpener()
 
+# get the text from a paragraph of the article
 def get_tnitext():
 
     outfile = open('muhammadalitext.txt', 'w')
